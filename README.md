@@ -1,8 +1,8 @@
 # spring
 
-#spring-mvc-sample
+<pre>#spring-mvc-sample
   build : mvn clean install
-  url   : http://localhost:8080/welcome
+  url   : http://localhost:8080/welcome</pre>
   
 #spring-boot-sample
   build     : mvn spring-boot:run
