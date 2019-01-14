@@ -37,19 +37,41 @@
             : http://localhost:8080/v2/welcome 
 </pre>
 
-<h>spring-boot-retry-sample</h>
+<h>spring-boot-data-jpa-sample</h>
 <pre>
-  build     : mvn spring-boot:run
-  api url   : http://localhost:8080/v1/welcome 
-            : http://localhost:8080/v2/welcome 
-</pre>
-
-<h>spring-boot-retry-sample</h>
-<pre>
-  note      : change application.property database config
-            : run query.sql on db
   build     : mvn spring-boot:run
   api url   : http://localhost:8080/product
+</pre>
+
+<h>spring-boot-cloud-function-sample</h>
+<pre>
+  build     : mvn spring-boot:run
+  api url   : GET  http://localhost:8080/helloworld 
+            : post http://localhost:8080/welcome (body: pass any text)
+</pre>
+
+<h>spring-boot-curd-rest-sample</h>
+<pre>
+  note      : have used lambok(https://projectlombok.org/) library, install IDE addon
+  build     : mvn spring-boot:run
+  api url   : get http://localhost:8080/employee
+		        : get http://localhost:8080/employee/1
+		        : post http://localhost:8080/employee
+		        : put http://localhost:8080/employee/1
+		        : delete http://localhost:8080/employee/1
+ sample body: {
+                "firstName": "John",
+                "lastName": "Smith"
+               }                   
+</pre>
+
+
+<h>spring-boot-swagger-advance-sample</h>
+<pre>
+  note      : have used lambok(https://projectlombok.org/) library, install IDE addon
+  build     : mvn spring-boot:run
+  api url   : get http://localhost:8080/employee
+  swagger url: http://localhost:8080/swagger-ui.html            
 </pre>
 
   
