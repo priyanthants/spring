@@ -1,4 +1,4 @@
-package com.example.helloWorld;
+package com.example.controller;
 
 import com.example.model.Employee;
 import com.example.service.EmployeeService;
