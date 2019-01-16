@@ -13,5 +13,4 @@ public class HelloWorldController {
 	    public String welcome(){
 	        return"Hello World";
 	    }
-
 }
